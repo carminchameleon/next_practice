@@ -1,9 +1,13 @@
 import React from 'react'
-
-const about = () => {
+import Layout from '../components/layouts/Layout'
+import About from '../components/About'
+const about = (props) => {
+    const {hideAside } = props;
     return (
         <div>
-            about
+              <Layout hideAside>
+                   <About {...props}/>
+            </Layout>
         </div>
     )   
 }
