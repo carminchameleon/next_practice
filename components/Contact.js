@@ -1,13 +1,13 @@
 import React from 'react'
 
 const Contact = props => {
-    const { data } = props;
+    const { textData } = props;
  return (
      <>
-        <div>Current Index Number : {data.id}</div>
-         <div>User Id : {data.userId}</div>
-         <div>Title : {data.title}</div>
-         <div>Body : {data.body}</div>
+        <div>Current Index Number : {textData.id}</div>
+         <div>User Id : {textData.userId}</div>
+         <div>Title : {textData.title}</div>
+         <div>Body : {textData.body}</div>
      </>
  )
 }

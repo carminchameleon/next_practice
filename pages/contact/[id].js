@@ -1,6 +1,6 @@
 import React from 'react'
-import Contact from '../../components/Contact'
 import axios from 'axios'
+import Contact from '../../components/Contact'
 
 const Index = props => {
         return (
@@ -12,11 +12,10 @@ const Index = props => {
 
 Index.getInitialProps = async context => {
     const id = context.query.id
-
     try { 
       const result = await axios.get(`https://jsonplaceholder.typicode.com/posts/${id}`)
-      const data = result.data
-      return {data}
+      const textData = result.data
+      return {textData}
     } catch {
       console.log('error', error)
     }
