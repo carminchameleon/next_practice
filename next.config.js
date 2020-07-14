@@ -1,2 +1,2 @@
-const withSCSS = require('@zeit/next-css')
-module.exports = withSCSS()
+const withSCSS = require("@zeit/next-sass");
+module.exports = withSCSS();
