@@ -1,0 +1,23 @@
+.board-container {
+  margin-top: 50px;
+}
+.todo-container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.todo-title {
+  //   text-decoration: line-through;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 200px;
+  font-size: 17px;
+  color: blue;
+}
+.delete-icon {
+  font-size: 20px;
+  &:hover {
+    cursor: pointer;
+  }
+}

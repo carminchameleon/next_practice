@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Home = () => {
-    return (
-        <>안녕 Next</>
-    )    
-}
+  return <>안녕 Next</>;
+};
 
 export default Home;

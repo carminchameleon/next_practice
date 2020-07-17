@@ -1,0 +1,46 @@
+/* For demo */
+.ant-carousel {
+  width: 70%;
+  margin: 0 auto;
+}
+.ant-carousel .slick-slide {
+  margin-top: 10px;
+  text-align: center;
+  height: 160px;
+  line-height: 160px;
+  background: #364d79;
+  overflow: hidden;
+  width: 2000px;
+}
+
+.ant-carousel .slick-slide h3 {
+  color: #fff;
+}
+
+.slider-title {
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+.slider-container {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.post-container {
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.post-image {
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+}
+
+.arrow-text {
+  font-size: 40px;
+  margin-top: 70px;
+}
